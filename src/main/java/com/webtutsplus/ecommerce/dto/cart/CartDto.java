@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.dto.cart;
+package com.webtutsplus.order.dto.cart;
 
 import java.util.List;
 

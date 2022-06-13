@@ -1,7 +1,7 @@
-package com.webtutsplus.ecommerce.service;
+package com.webtutsplus.order.service;
 
-import com.webtutsplus.ecommerce.config.StorageProperties;
-import com.webtutsplus.ecommerce.exceptions.StorageException;
+import com.webtutsplus.order.config.StorageProperties;
+import com.webtutsplus.order.exceptions.StorageException;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;

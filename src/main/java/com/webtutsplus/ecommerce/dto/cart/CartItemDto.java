@@ -1,7 +1,7 @@
-package com.webtutsplus.ecommerce.dto.cart;
+package com.webtutsplus.order.dto.cart;
 
-import com.webtutsplus.ecommerce.model.Cart;
-import com.webtutsplus.ecommerce.model.Product;
+import com.webtutsplus.order.model.Cart;
+import com.webtutsplus.order.model.Product;
 
 import javax.validation.constraints.NotNull;
 

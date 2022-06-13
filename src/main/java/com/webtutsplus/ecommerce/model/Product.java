@@ -1,7 +1,7 @@
-package com.webtutsplus.ecommerce.model;
+package com.webtutsplus.order.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.webtutsplus.ecommerce.dto.product.ProductDto;
+import com.webtutsplus.order.dto.product.ProductDto;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

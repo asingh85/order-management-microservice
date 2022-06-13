@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.service;
+package com.webtutsplus.order.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,8 +7,8 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Service;
 
-import com.webtutsplus.ecommerce.model.Category;
-import com.webtutsplus.ecommerce.repository.Categoryrepository;
+import com.webtutsplus.order.model.Category;
+import com.webtutsplus.order.repository.Categoryrepository;
 
 @Service
 @Transactional

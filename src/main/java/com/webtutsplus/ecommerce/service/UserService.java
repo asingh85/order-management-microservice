@@ -1,20 +1,20 @@
-package com.webtutsplus.ecommerce.service;
+package com.webtutsplus.order.service;
 
 
-import com.webtutsplus.ecommerce.config.MessageStrings;
-import com.webtutsplus.ecommerce.dto.*;
-import com.webtutsplus.ecommerce.dto.user.SignInDto;
-import com.webtutsplus.ecommerce.dto.user.SignInResponseDto;
-import com.webtutsplus.ecommerce.dto.user.SignupDto;
-import com.webtutsplus.ecommerce.dto.user.UserCreateDto;
-import com.webtutsplus.ecommerce.enums.ResponseStatus;
-import com.webtutsplus.ecommerce.enums.Role;
-import com.webtutsplus.ecommerce.exceptions.AuthenticationFailException;
-import com.webtutsplus.ecommerce.exceptions.CustomException;
-import com.webtutsplus.ecommerce.model.AuthenticationToken;
-import com.webtutsplus.ecommerce.model.User;
-import com.webtutsplus.ecommerce.repository.UserRepository;
-import com.webtutsplus.ecommerce.utils.Helper;
+import com.webtutsplus.order.config.MessageStrings;
+import com.webtutsplus.order.dto.*;
+import com.webtutsplus.order.dto.user.SignInDto;
+import com.webtutsplus.order.dto.user.SignInResponseDto;
+import com.webtutsplus.order.dto.user.SignupDto;
+import com.webtutsplus.order.dto.user.UserCreateDto;
+import com.webtutsplus.order.enums.ResponseStatus;
+import com.webtutsplus.order.enums.Role;
+import com.webtutsplus.order.exceptions.AuthenticationFailException;
+import com.webtutsplus.order.exceptions.CustomException;
+import com.webtutsplus.order.model.AuthenticationToken;
+import com.webtutsplus.order.model.User;
+import com.webtutsplus.order.repository.UserRepository;
+import com.webtutsplus.order.utils.Helper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +24,7 @@ import javax.xml.bind.DatatypeConverter;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import static com.webtutsplus.ecommerce.config.MessageStrings.USER_CREATED;
+import static com.webtutsplus.order.config.MessageStrings.USER_CREATED;
 
 
 @Service

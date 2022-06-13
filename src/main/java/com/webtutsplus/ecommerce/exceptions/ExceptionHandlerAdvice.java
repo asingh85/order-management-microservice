@@ -1,6 +1,6 @@
-package com.webtutsplus.ecommerce.exceptions;
+package com.webtutsplus.order.exceptions;
 
-import com.webtutsplus.ecommerce.common.ApiResponse;
+import com.webtutsplus.order.common.ApiResponse;
 import org.springframework.core.NestedExceptionUtils;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;

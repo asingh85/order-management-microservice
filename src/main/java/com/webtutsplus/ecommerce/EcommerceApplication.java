@@ -1,14 +1,14 @@
-package com.webtutsplus.ecommerce;
+package com.webtutsplus.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EcommerceApplication {
+public class orderApplication {
 
 	public static void main(String[] args) {
 		
-		SpringApplication.run(EcommerceApplication.class, args);
+		SpringApplication.run(orderApplication.class, args);
 		
 	}
 

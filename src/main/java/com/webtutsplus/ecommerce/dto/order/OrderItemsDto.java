@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.dto.order;
+package com.webtutsplus.order.dto.order;
 
 import javax.validation.constraints.NotNull;
 

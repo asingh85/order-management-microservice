@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.exceptions;
+package com.webtutsplus.order.exceptions;
 
 public class UpdateFailException extends IllegalArgumentException {
     public UpdateFailException(String msg) {

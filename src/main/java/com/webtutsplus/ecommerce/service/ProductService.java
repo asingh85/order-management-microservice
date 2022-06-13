@@ -1,10 +1,10 @@
-package com.webtutsplus.ecommerce.service;
+package com.webtutsplus.order.service;
 
-import com.webtutsplus.ecommerce.dto.product.ProductDto;
-import com.webtutsplus.ecommerce.exceptions.ProductNotExistException;
-import com.webtutsplus.ecommerce.model.Category;
-import com.webtutsplus.ecommerce.model.Product;
-import com.webtutsplus.ecommerce.repository.ProductRepository;
+import com.webtutsplus.order.dto.product.ProductDto;
+import com.webtutsplus.order.exceptions.ProductNotExistException;
+import com.webtutsplus.order.model.Category;
+import com.webtutsplus.order.model.Product;
+import com.webtutsplus.order.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

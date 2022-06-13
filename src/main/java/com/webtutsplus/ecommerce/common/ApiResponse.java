@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.common;
+package com.webtutsplus.order.common;
 
 import java.time.LocalDateTime;
 

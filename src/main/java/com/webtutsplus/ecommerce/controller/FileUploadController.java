@@ -1,7 +1,7 @@
-package com.webtutsplus.ecommerce.controller;
+package com.webtutsplus.order.controller;
 
-import com.webtutsplus.ecommerce.model.FileInfo;
-import com.webtutsplus.ecommerce.service.FIleStoreService;
+import com.webtutsplus.order.model.FileInfo;
+import com.webtutsplus.order.service.FIleStoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;

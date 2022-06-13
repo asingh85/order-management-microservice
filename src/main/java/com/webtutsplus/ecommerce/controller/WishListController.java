@@ -1,14 +1,14 @@
-package com.webtutsplus.ecommerce.controller;
+package com.webtutsplus.order.controller;
 
 
-import com.webtutsplus.ecommerce.common.ApiResponse;
-import com.webtutsplus.ecommerce.dto.product.ProductDto;
-import com.webtutsplus.ecommerce.model.Product;
-import com.webtutsplus.ecommerce.model.User;
-import com.webtutsplus.ecommerce.model.WishList;
-import com.webtutsplus.ecommerce.service.AuthenticationService;
-import com.webtutsplus.ecommerce.service.ProductService;
-import com.webtutsplus.ecommerce.service.WishListService;
+import com.webtutsplus.order.common.ApiResponse;
+import com.webtutsplus.order.dto.product.ProductDto;
+import com.webtutsplus.order.model.Product;
+import com.webtutsplus.order.model.User;
+import com.webtutsplus.order.model.WishList;
+import com.webtutsplus.order.service.AuthenticationService;
+import com.webtutsplus.order.service.ProductService;
+import com.webtutsplus.order.service.WishListService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

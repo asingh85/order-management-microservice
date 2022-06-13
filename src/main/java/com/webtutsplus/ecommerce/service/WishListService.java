@@ -1,9 +1,9 @@
-package com.webtutsplus.ecommerce.service;
+package com.webtutsplus.order.service;
 
 import java.util.List;
 import javax.transaction.Transactional;
-import com.webtutsplus.ecommerce.model.WishList;
-import com.webtutsplus.ecommerce.repository.WishListRepository;
+import com.webtutsplus.order.model.WishList;
+import com.webtutsplus.order.repository.WishListRepository;
 import org.springframework.stereotype.Service;
 
 

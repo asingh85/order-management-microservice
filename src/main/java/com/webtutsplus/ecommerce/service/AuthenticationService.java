@@ -1,12 +1,12 @@
-package com.webtutsplus.ecommerce.service;
+package com.webtutsplus.order.service;
 
 
-import com.webtutsplus.ecommerce.config.MessageStrings;
-import com.webtutsplus.ecommerce.exceptions.AuthenticationFailException;
-import com.webtutsplus.ecommerce.model.AuthenticationToken;
-import com.webtutsplus.ecommerce.model.User;
-import com.webtutsplus.ecommerce.repository.TokenRepository;
-import com.webtutsplus.ecommerce.utils.Helper;
+import com.webtutsplus.order.config.MessageStrings;
+import com.webtutsplus.order.exceptions.AuthenticationFailException;
+import com.webtutsplus.order.model.AuthenticationToken;
+import com.webtutsplus.order.model.User;
+import com.webtutsplus.order.repository.TokenRepository;
+import com.webtutsplus.order.utils.Helper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

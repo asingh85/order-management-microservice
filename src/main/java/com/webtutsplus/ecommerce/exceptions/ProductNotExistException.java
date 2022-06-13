@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.exceptions;
+package com.webtutsplus.order.exceptions;
 
 public class ProductNotExistException extends IllegalArgumentException {
     public ProductNotExistException(String msg) {

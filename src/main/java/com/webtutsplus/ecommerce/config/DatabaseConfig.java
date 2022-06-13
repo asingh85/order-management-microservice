@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.config;
+package com.webtutsplus.order.config;
 
 import com.zaxxer.hikari.*;
 import org.springframework.beans.factory.annotation.Value;

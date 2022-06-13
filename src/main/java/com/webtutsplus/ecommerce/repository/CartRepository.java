@@ -1,8 +1,8 @@
-package com.webtutsplus.ecommerce.repository;
+package com.webtutsplus.order.repository;
 
-import com.webtutsplus.ecommerce.model.Cart;
-import com.webtutsplus.ecommerce.model.User;
-import com.webtutsplus.ecommerce.model.WishList;
+import com.webtutsplus.order.model.Cart;
+import com.webtutsplus.order.model.User;
+import com.webtutsplus.order.model.WishList;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

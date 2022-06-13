@@ -1,7 +1,7 @@
-package com.webtutsplus.ecommerce.service;
+package com.webtutsplus.order.service;
 
-import com.webtutsplus.ecommerce.model.OrderItem;
-import com.webtutsplus.ecommerce.repository.OrderItemsRepository;
+import com.webtutsplus.order.model.OrderItem;
+import com.webtutsplus.order.repository.OrderItemsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

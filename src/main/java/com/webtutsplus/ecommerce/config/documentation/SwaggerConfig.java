@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.config.documentation;
+package com.webtutsplus.order.config.documentation;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,7 +20,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
         		.apiInfo(getApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.webtutsplus.ecommerce"))
+                .apis(RequestHandlerSelectors.basePackage("com.webtutsplus.order"))
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -28,8 +28,8 @@ public class SwaggerConfig {
 	private ApiInfo getApiInfo() {
         Contact contact = new Contact("webtutsplus", "http://webtutsplus.com", "contact.webtutsplus@gmail.com");
         return new ApiInfoBuilder()
-                .title("Ecommerce API")
-                .description("Documentation Ecommerce api")
+                .title("order API")
+                .description("Documentation order api")
                 .version("1.0.0")
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0")

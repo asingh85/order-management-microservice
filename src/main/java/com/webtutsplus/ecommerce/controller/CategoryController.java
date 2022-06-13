@@ -1,18 +1,18 @@
-package com.webtutsplus.ecommerce.controller;
+package com.webtutsplus.order.controller;
 
 import java.util.List;
 
 import javax.validation.Valid;
 
-import com.webtutsplus.ecommerce.utils.Helper;
+import com.webtutsplus.order.utils.Helper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.webtutsplus.ecommerce.common.ApiResponse;
-import com.webtutsplus.ecommerce.model.Category;
-import com.webtutsplus.ecommerce.service.CategoryService;
+import com.webtutsplus.order.common.ApiResponse;
+import com.webtutsplus.order.model.Category;
+import com.webtutsplus.order.service.CategoryService;
 
 @RestController
 @RequestMapping("/category")

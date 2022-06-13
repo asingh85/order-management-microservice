@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.model;
+package com.webtutsplus.order.model;
 import javax.persistence.*;
 import java.util.Date;
 import java.util.UUID;

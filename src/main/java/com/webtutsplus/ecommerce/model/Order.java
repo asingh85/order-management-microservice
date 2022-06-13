@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.model;
+package com.webtutsplus.order.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;

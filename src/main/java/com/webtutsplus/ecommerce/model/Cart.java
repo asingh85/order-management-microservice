@@ -1,7 +1,7 @@
-package com.webtutsplus.ecommerce.model;
+package com.webtutsplus.order.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.webtutsplus.ecommerce.dto.cart.AddToCartDto;
+import com.webtutsplus.order.dto.cart.AddToCartDto;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;

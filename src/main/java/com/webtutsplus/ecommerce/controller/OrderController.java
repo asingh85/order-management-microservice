@@ -1,16 +1,16 @@
-package com.webtutsplus.ecommerce.controller;
+package com.webtutsplus.order.controller;
 
 import com.stripe.exception.StripeException;
 import com.stripe.model.checkout.Session;
-import com.webtutsplus.ecommerce.common.ApiResponse;
-import com.webtutsplus.ecommerce.dto.checkout.CheckoutItemDto;
-import com.webtutsplus.ecommerce.dto.checkout.StripeResponse;
-import com.webtutsplus.ecommerce.exceptions.AuthenticationFailException;
-import com.webtutsplus.ecommerce.exceptions.OrderNotFoundException;
-import com.webtutsplus.ecommerce.model.Order;
-import com.webtutsplus.ecommerce.model.User;
-import com.webtutsplus.ecommerce.service.AuthenticationService;
-import com.webtutsplus.ecommerce.service.OrderService;
+import com.webtutsplus.order.common.ApiResponse;
+import com.webtutsplus.order.dto.checkout.CheckoutItemDto;
+import com.webtutsplus.order.dto.checkout.StripeResponse;
+import com.webtutsplus.order.exceptions.AuthenticationFailException;
+import com.webtutsplus.order.exceptions.OrderNotFoundException;
+import com.webtutsplus.order.model.Order;
+import com.webtutsplus.order.model.User;
+import com.webtutsplus.order.service.AuthenticationService;
+import com.webtutsplus.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

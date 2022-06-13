@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.model;
+package com.webtutsplus.order.model;
 
 public class FileInfo {
   private String name;

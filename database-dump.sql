@@ -1,6 +1,6 @@
 -- -- MariaDB dump 10.18  Distrib 10.5.8-MariaDB, for debian-linux-gnu (x86_64)
 -- --
--- -- Host: localhost    Database: ecommerce
+-- -- Host: localhost    Database: order
 -- -- ------------------------------------------------------
 -- -- Server version	10.5.8-MariaDB-3
 

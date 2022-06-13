@@ -1,6 +1,6 @@
-package com.webtutsplus.ecommerce.dto.user;
+package com.webtutsplus.order.dto.user;
 
-import com.webtutsplus.ecommerce.enums.Role;
+import com.webtutsplus.order.enums.Role;
 
 public class UserUpdateDto {
     // skipping updating passord as of now

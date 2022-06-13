@@ -1,9 +1,9 @@
-package com.webtutsplus.ecommerce.repository;
+package com.webtutsplus.order.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.webtutsplus.ecommerce.model.Category;
+import com.webtutsplus.order.model.Category;
 
 @Repository
 public interface Categoryrepository extends JpaRepository<Category, Integer> {

@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.config;
+package com.webtutsplus.order.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

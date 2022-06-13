@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.utils;
+package com.webtutsplus.order.utils;
 
 public class Helper {
     public static boolean notNull(Object obj){

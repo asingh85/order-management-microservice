@@ -1,16 +1,16 @@
-package com.webtutsplus.ecommerce.controller;
+package com.webtutsplus.order.controller;
 
 
-import com.webtutsplus.ecommerce.dto.*;
-import com.webtutsplus.ecommerce.dto.user.SignInDto;
-import com.webtutsplus.ecommerce.dto.user.SignInResponseDto;
-import com.webtutsplus.ecommerce.dto.user.SignupDto;
-import com.webtutsplus.ecommerce.exceptions.AuthenticationFailException;
-import com.webtutsplus.ecommerce.exceptions.CustomException;
-import com.webtutsplus.ecommerce.model.User;
-import com.webtutsplus.ecommerce.repository.UserRepository;
-import com.webtutsplus.ecommerce.service.AuthenticationService;
-import com.webtutsplus.ecommerce.service.UserService;
+import com.webtutsplus.order.dto.*;
+import com.webtutsplus.order.dto.user.SignInDto;
+import com.webtutsplus.order.dto.user.SignInResponseDto;
+import com.webtutsplus.order.dto.user.SignupDto;
+import com.webtutsplus.order.exceptions.AuthenticationFailException;
+import com.webtutsplus.order.exceptions.CustomException;
+import com.webtutsplus.order.model.User;
+import com.webtutsplus.order.repository.UserRepository;
+import com.webtutsplus.order.service.AuthenticationService;
+import com.webtutsplus.order.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

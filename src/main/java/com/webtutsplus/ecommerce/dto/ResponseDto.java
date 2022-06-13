@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.dto;
+package com.webtutsplus.order.dto;
 
 
 public class ResponseDto {

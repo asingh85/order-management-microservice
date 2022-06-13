@@ -1,8 +1,8 @@
-package com.webtutsplus.ecommerce.model;
+package com.webtutsplus.order.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.webtutsplus.ecommerce.enums.Role;
+import com.webtutsplus.order.enums.Role;
 
 import javax.persistence.*;
 import java.util.List;

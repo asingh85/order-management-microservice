@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.exceptions;
+package com.webtutsplus.order.exceptions;
 
 public class CustomException extends IllegalArgumentException {
     public CustomException(String msg) {

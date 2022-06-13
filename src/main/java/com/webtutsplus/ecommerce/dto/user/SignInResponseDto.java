@@ -1,4 +1,4 @@
-package com.webtutsplus.ecommerce.dto.user;
+package com.webtutsplus.order.dto.user;
 
 public class SignInResponseDto {
     private String status;
